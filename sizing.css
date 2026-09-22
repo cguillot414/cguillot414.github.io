@@ -1,0 +1,182 @@
+*{
+    font-family: georgia, serif;
+    /*text-align: justify; */
+}
+
+.top-of-page{
+    position:sticky;
+    padding-top:20px;
+    padding-left:3px;
+    top: 0;
+    z-index: 1;
+}
+.tab{
+    min-width: fit-content;
+    text-align: left;
+    border: 2px;
+    border-radius:5px;
+    border-style: solid;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size:calc(10px + 2vw);
+    cursor: pointer;
+    border-bottom: rgb(0,0,0,0);
+}
+.open{
+}
+
+
+body{
+    margin:0;
+}
+.border{
+    width:100%;
+    height: 27px;
+    position:fixed;
+    z-index:1;
+
+}
+h1{
+    font-size: calc(30px + 0.75vw);
+    top: 2em;
+    position: fixed;
+    text-align:center;
+    width: calc(100% - 70px);
+    z-index: 1;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top:-1%;
+    margin-bottom: -20px;
+    transform: translateY(5px);
+
+}
+.title{
+    font-size: calc(50px + 1vw);
+    position:static;
+    margin-top: 50px;
+    margin-bottom: -40px;
+    width:97vw;
+    background-color: rgba(0,0,0,0);
+
+}
+.main-text{
+    margin: 70px 25px ;
+    align-self: center;
+    padding:5px;
+    width: calc(100% - 150px);
+    border: 2px solid;
+    border-radius:10px;
+    font-size: calc(18px + 0.6vw);
+    z-index: 0;
+    
+    .homepage-text{
+        font-size:calc(30px + 0.75vw);
+        margin:10px;
+        text-align: justify;
+    }
+}
+
+.portfolio-section{
+    scale: 17vh; 
+    border: 3px solid;
+    margin: 5px;
+    font-size:2vh;
+    height: auto;
+    padding:5px;
+    margin-bottom: 2vh;
+}
+.portfolio-image{
+    width: 10vw;
+    min-width: 75px;
+    height: 10vw;
+    min-height: 75px;
+    position:center center;
+    float:left;
+    vertical-align: center;
+    align-content: center;
+    margin:10px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.git{
+    background-color: rgb(0,0,0,0);
+    background-image: url(icone-github-noir.png);
+    background-size:110%;
+    background-position: center center; 
+    cursor: pointer;
+    border: rgb(0,0,0,0);
+}
+
+
+.portfolio-time{
+    float: right;
+    width:11vw;
+    font-style: italic;
+    font-size: calc(10px + 0.75vw);
+    text-align: center;;
+}
+.portfolio-header{
+    font-size: calc(13px + 1.7vw);
+    text-align: center;
+    margin-bottom: calc(-5% + 1.5vw);
+}
+.portfolio-text{
+    margin-top:4vw;
+    font-size: calc(10px + 1vw);
+    padding-left:1vw;
+}
+.skills-list{
+    margin-top:4vw;
+    font-size: calc(10px + 1vw);
+    padding-left:1vw;
+}
+
+.qual-list{
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 2vw;
+    font-size: calc(10px + 1vw);
+}
+
+.pdf{
+    width:95vw;
+    padding:10px;
+    height: 99vw;
+    max-height: 1000px;
+}
+
+.buttons{
+    position: sticky;
+    top:20%;
+    float:right;
+    transform: translateX(-17px);
+    z-index:2;
+}
+.button{
+    height: calc(40px + 1.5vw);
+    width: calc(40px + 1.5vw);
+    margin:6px;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: solid;
+}
+.button:hover {
+    box-shadow: 0px 4px 4px 4px;
+}
+.linkedbutton{
+    background-image: url(LinkedIn_icon.svg.png);
+    background-size:85%;
+    background-position:center center;
+}
+.gitbutton{
+    background-image: url(icone-github-noir.png);
+    background-size:120%;
+    background-position: center center;
+}
+.styleswitch{
+    background-image: url(switching.png); 
+    background-size: 85%;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}

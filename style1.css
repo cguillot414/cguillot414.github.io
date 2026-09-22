@@ -1,0 +1,50 @@
+.top-of-page{
+    background-color: white;
+
+}
+.tab{
+    background-color: royalblue;
+}
+.open{
+    background-color:skyblue;
+}
+
+
+body{
+    background-color:skyblue;
+}
+.border{
+    background-color:skyblue;
+}
+h1{
+    background-color:skyblue;
+}
+
+.main-text{
+    background-color: white;
+    border: royalblue;
+}
+
+.portfolio-section{
+    border: 3px darkcyan solid;
+}
+
+.button:hover{
+    box-shadow: rgb(0,0,0,0);
+}
+
+.styleswitch{
+    background-color:orchid;
+}
+
+.clouds-gif{
+    width:100vw;
+    z-index: -50;
+    top:0;
+    position:fixed;
+    isolation:isolate;
+}
+.dino-gif{
+    opacity: 0;
+    width:0px;
+}

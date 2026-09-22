@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>C Guillot - Portfolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link id="style1" rel="stylesheet" href="style1.css" />
+    <link id="sizingstyle" rel="stylesheet" href="sizing.css" />
+</head>
+
+<!-- &nbsp for blank "space" aka " " -->
+
+<body>
+    <script src="functions.js"></script>
+
+    <!-- Tabs at the top -->
+    <div class="top-of-page">
+        <button title="Home Page" class="tab" onclick="location.href='index.html';">Home</button>
+        <button title="Current Page" class="open tab" onclick="location.href='portfolio.html';">Portfolio</button>
+        <button title="Qualifications Page" class="tab" onclick="location.href='qualifications.html';">Qualifications</button>
+        <button title="Service Page" class="tab" onclick="location.href='service.html';">Service</button>
+        <button title="AI Generated Page" class="tab" onclick="location.href='genai.html';">AI Generated</button>
+    </div>
+
+    <div class="buttons">
+    <!-- Side buttons -->
+        <input title="To LinkedIn" class = "linkedbutton button" type="button" onclick="window.open('https://www.linkedin.com/in/c-guillot-a86a63281/', '_blank'); return false;"/>
+        <br>
+        <input title="To GitHub" class = "gitbutton button" type="button" onclick="window.open('https://github.com/cguillot414', '_blank'); return false;"/>
+        <br>
+        <input title="Switch Style" id="styleswitch" class = "styleswitch button" type ="button" onclick="styleSwitch()" />
+    </div>
+    
+    <div class = "border"></div>
+    <h1> Portfolio and Projects </h1>
+    <div class="main-text">
+
+        <div class="portfolio-section">
+            <input class="portfolio-image git" type="button" onclick="window.open('https://www.github.com/cguillot414/blacktip-migration', '_blank'); return true;"></button>
+            <p class="portfolio-time"> August 2025 - present</p>
+            <h2 class="portfolio-header">Blacktip Shark Migration Research</h2>
+            <p class="portfolio-text">Working under a Marine Biology professor at 
+                Texas A&M University at Galveston, I worked
+                to map location patterns of blacktip sharks,
+                to hopefully learn about possible migration patterns
+                and disturbances. 
+            </p>
+            <div class="skills-list">
+            <p>Skills Used:</p>
+            <ul style="margin-top:-10px; font-size:calc(6px+1vw);"> 
+                <li>Python</li>
+                <li>Matplotlib</li>
+                <li>Microsoft Excel</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="portfolio-section">
+            <input class="portfolio-image git" type="button" onclick="return true;"></button>
+            <p class="portfolio-time"> January - February 2026</p>
+            <h2 class="portfolio-header">Portfolio Website</h2>
+            <p class="portfolio-text"> In my <i>Foundations of Software Engineering</i> course,
+                our first project was to make a portfolio website, to share to
+                potential employers. 
+            </p>
+            <div class="skills-list">
+            <p>Skills Used:</p>
+            <ul> 
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br>
+</body>
+</html>

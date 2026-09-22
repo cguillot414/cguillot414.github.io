@@ -1,0 +1,63 @@
+.top-of-page{
+    background-color: black;
+}
+.tab{
+    background-color:white;
+    border: 2px white;
+
+}
+.open{
+    background-color: 31102F;
+    color: white;
+}
+
+
+body{
+    background-color: 31102F;
+}
+.border{
+    background-color:31102F;
+}
+h1{
+    background-color:31102F;
+    color:white;
+}
+.main-text{
+    background-color: black;
+    color:white;
+    border: white;
+}
+
+.portfolio-section{
+    border: 3px cyan solid;
+}
+
+.portfolio-time{
+    color:crimson;
+}
+.portfolio-header{
+    color:magenta;
+}
+.portfolio-image{
+    filter: invert();
+}
+
+
+.styleswitch{
+    background-color: cyan;
+}
+
+.dino-gif{
+    bottom:0;
+    width:98vw;
+    z-index:0;
+    position:fixed;
+    margin-top:calc(500px - 5vw);
+    filter:invert();
+    mix-blend-mode: color-dodge;
+    transform: translateY(10px);
+}
+.clouds-gif{
+    opacity: 0;
+    width:0px;
+}
